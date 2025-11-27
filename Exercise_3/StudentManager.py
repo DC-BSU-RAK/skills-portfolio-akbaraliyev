@@ -84,7 +84,7 @@ class StudentManager(tk.Tk):
 
         self.load_images()
         self.logo_label = tk.Label(self.nav_frame, image=self.logo_img, bg=nav_bg)
-        self.logo_label.pack(pady=(40,40))
+        self.logo_label.pack(pady=(0,40))
 
         menu_items = [
             ("View All Records", self.view_all),
